@@ -29,11 +29,11 @@ export default function Footer() {
                 flexShrink: 0,
               }}>
                 <Image
-                  src="/manosLogo2.png"
+                  src="/logoOnestaBlanco.jpg"
                   alt="Onestà logo"
                   width={32}
                   height={32}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'invert(1)' }}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
               </div>
               <span style={{
