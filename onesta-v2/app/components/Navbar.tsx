@@ -53,7 +53,7 @@ export default function Navbar() {
             alt="Onestà Compliance logo"
             width={36}
             height={36}
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'invert(1)' }}
             priority
           />
         </div>
