@@ -25,7 +25,7 @@ export default function Services() {
           style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: isMobile ? 'flex-start' : 'flex-start', justifyContent: 'space-between', marginBottom: isMobile ? 40 : 64, gap: 24 }}>
           <div>
             <div className="section-label">Nuestros servicios</div>
-            <h2 style={{ fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.15, maxWidth: 440, margin: 0 }}>
+            <h2 style={{ fontSize: 'clamp(1.8rem, 3vw, 2.4rem)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.15, maxWidth: 440, margin: 0 }}>
               Todo lo que tu empresa necesita para operar con integridad.
             </h2>
           </div>
@@ -48,8 +48,7 @@ function ServiceCard({ service, delay, isMobile }: { service: typeof services[0]
       <div style={{ fontSize: '0.65rem', fontWeight: 700, letterSpacing: '0.12em', color: '#1D72B8', marginBottom: 20, opacity: 0.7 }}>{service.num}</div>
       <div style={{ width: 40, height: 40, border: '1px solid rgba(29,114,184,0.3)', borderRadius: 8, display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20 }}>{service.icon}</div>
       <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: 12, color: '#FFFFFF', letterSpacing: '-0.01em' }}>{service.title}</h3>
-      <p style={{ fontSize: '0.84rem', color: '#7A95A8', lineHeight: 1.7, marginBottom: 24 }}>{service.body}</p>
-      <span className="service-link-arrow" style={{ fontSize: '0.78rem', fontWeight: 600, color: '#1D72B8', letterSpacing: '0.03em', display: 'inline-flex', alignItems: 'center', gap: 6, transition: 'gap 0.2s' }}>Ver más →</span>
+      <p style={{ fontSize: '0.84rem', color: '#7A95A8', lineHeight: 1.7, margin: 0 }}>{service.body}</p>
     </div>
   )
 }
