@@ -49,11 +49,11 @@ export default function Navbar() {
           border: '1.5px solid rgba(29,114,184,0.4)',
         }}>
           <Image
-            src="/manosLogo2.png"
+            src="/logoOnestaBlanco.jpg"
             alt="Onestà Compliance logo"
             width={36}
             height={36}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'invert(1)' }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
           />
         </div>
