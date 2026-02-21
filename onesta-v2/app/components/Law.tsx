@@ -14,7 +14,7 @@ export default function Law() {
 
           <div ref={leftRef} className={`reveal${leftVisible ? ' visible' : ''}`}>
             <div className="section-label">Marco legal</div>
-            <div className="law-big-num">27.401</div>
+            <div className="law-big-num" style={{ overflow: 'hidden', fontSize: isMobile ? '4.5rem' : '8rem' }}>27.401</div>
             <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.2rem)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.2, marginBottom: 20 }}>
               La ley que cambia las reglas del juego para las empresas argentinas.
             </h2>
