@@ -128,17 +128,33 @@ function ServiceCard({ service, Icon, delay, isMobile }: { service: typeof servi
     <div ref={ref} className={`reveal reveal-delay-${delay} service-card-glow${visible ? ' visible' : ''}`}
       style={{ background: '#111E2E', border: '1px solid rgba(255,255,255,0.06)', borderRadius: 12, padding: isMobile ? '28px 24px' : '36px 32px', position: 'relative', cursor: 'pointer', transition: 'all 0.3s ease', overflow: 'hidden' }}>
       <div style={{ fontSize: '0.65rem', fontWeight: 700, letterSpacing: '0.12em', color: '#1D72B8', marginBottom: 20, opacity: 0.7 }}>{service.num}</div>
-      {/* Ícono con contenedor premium */}
-      <div style={{
-        width: 52, height: 52,
-        background: 'linear-gradient(135deg, rgba(29,114,184,0.15) 0%, rgba(29,114,184,0.05) 100%)',
-        border: '1px solid rgba(29,114,184,0.25)',
-        borderRadius: 12,
-        display: 'flex', alignItems: 'center', justifyContent: 'center',
-        marginBottom: 20,
-        boxShadow: '0 4px 16px rgba(29,114,184,0.1)',
-      }}>
-        <Icon />
+      {/* Ícono con contenedor glassmorphism */}
+      <div
+        className="icon-container"
+        style={{
+          width: 96, height: 96,
+          background: 'linear-gradient(135deg, rgba(29,114,184,0.18) 0%, rgba(29,114,184,0.06) 100%)',
+          backdropFilter: 'blur(12px)',
+          WebkitBackdropFilter: 'blur(12px)',
+          border: '1px solid rgba(29,114,184,0.22)',
+          borderRadius: 20,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          marginBottom: 24,
+          boxShadow: '0 0 20px rgba(29,114,184,0.18), inset 0 1px 0 rgba(255,255,255,0.06)',
+          transition: 'box-shadow 0.3s ease, border-color 0.3s ease',
+        }}
+        onMouseEnter={e => {
+          (e.currentTarget as HTMLDivElement).style.boxShadow = '0 0 36px rgba(29,114,184,0.38), inset 0 1px 0 rgba(255,255,255,0.08)'
+          ;(e.currentTarget as HTMLDivElement).style.borderColor = 'rgba(29,114,184,0.45)'
+        }}
+        onMouseLeave={e => {
+          (e.currentTarget as HTMLDivElement).style.boxShadow = '0 0 20px rgba(29,114,184,0.18), inset 0 1px 0 rgba(255,255,255,0.06)'
+          ;(e.currentTarget as HTMLDivElement).style.borderColor = 'rgba(29,114,184,0.22)'
+        }}
+      >
+        <div style={{ transform: 'scale(1.55)' }}>
+          <Icon />
+        </div>
       </div>
       <h3 style={{ fontSize: '1rem', fontWeight: 700, marginBottom: 12, color: '#FFFFFF', letterSpacing: '-0.01em' }}>{service.title}</h3>
       <p style={{ fontSize: '0.84rem', color: '#7A95A8', lineHeight: 1.7, margin: 0 }}>{service.body}</p>
