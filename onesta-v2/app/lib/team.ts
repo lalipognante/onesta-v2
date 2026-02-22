@@ -53,17 +53,19 @@ export const teamMembers: TeamMember[] = [
     image: "/concepcionBonetto.jpg"
   },
   {
-    id: 3,
-    name: 'Agustín Pascualini',
-    position: 'ASOCIADO',
+    id: 6,
+    name: 'Constanza Zucchella',
+    position: 'ASOCIADA',
     curriculum: [
       "Abogado (U.C.C)",
-      "Maestría en Derecho Empresario (Univ. Siglo XXI)",
-      "Diplomatura en Derecho del Trabajo y Relaciones Laborales (Univ. Austral)",
-      "Experto en Derecho Laboral de Empresas"
+      "Master en Derecho Empresario (Univ. Austral)",
+      "Diplomada en Fideicomisos (U.C.C)",
+      "Diplomatura en Desarrollo de Ecosistemas Emprendedores (U.C.C)",
+      "Derecho de los negocios internacionales (Univ. Complutense de Madrid)",
+      "Experta en Derecho Comercial y Empresarial"
     ],
-    linkedin: "https://www.linkedin.com/in/agust%C3%ADn-pascualini-244483114/",
-    image: "/agustinPascualini.jpg"
+    linkedin: "https://www.linkedin.com/in/constanza-zucchella-2979b08/",
+    image: "/constanzaZucchella2.jpeg"
   },
   {
     id: 4,
@@ -79,6 +81,19 @@ export const teamMembers: TeamMember[] = [
     image: "/edgardoRuibal.jpg"
   },
   {
+    id: 3,
+    name: 'Agustín Pascualini',
+    position: 'ASOCIADO',
+    curriculum: [
+      "Abogado (U.C.C)",
+      "Maestría en Derecho Empresario (Univ. Siglo XXI)",
+      "Diplomatura en Derecho del Trabajo y Relaciones Laborales (Univ. Austral)",
+      "Experto en Derecho Laboral de Empresas"
+    ],
+    linkedin: "https://www.linkedin.com/in/agust%C3%ADn-pascualini-244483114/",
+    image: "/agustinPascualini.jpg"
+  },
+  {
     id: 5,
     name: 'Federico Alfaro',
     position: 'ASOCIADO',
@@ -89,21 +104,6 @@ export const teamMembers: TeamMember[] = [
     ],
     linkedin: "https://www.linkedin.com/in/federico-alfaro-seghieri-52a5701a9/",
     image: "/federicoAlfaro.jpg"
-  },
-  {
-    id: 6,
-    name: 'Constanza Zucchella',
-    position: 'ASOCIADA',
-    curriculum: [
-      "Abogado (U.C.C)",
-      "Master en Derecho Empresario (Univ. Austral)",
-      "Diplomada en Fideicomisos (U.C.C)",
-      "Diplomatura en Desarrollo de Ecosistemas Emprendedores (U.C.C)",
-      "Derecho de los negocios internacionales (Univ. Complutense de Madrid)",
-      "Experta en Derecho Comercial y Empresarial"
-    ],
-    linkedin: "https://www.linkedin.com/in/constanza-zucchella-2979b08/",
-    image: "/constanzaZucchella2.jpeg"
   },
   // {
   //   id: 7,
