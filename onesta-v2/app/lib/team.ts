@@ -26,6 +26,33 @@ export const teamMembers: TeamMember[] = [
     image: "/gabrielPognante.jpg"
   },
   {
+    id: 2,
+    name: 'Leonardo Javier Mazzei',
+    position: 'ASOCIADO',
+    curriculum: [
+      "Abogado (UBA)",
+      "MBA – Administración y Gestión de las Organizaciones (UBP)",
+      "Maestría en Derecho Empresario (UBP)",
+      "Diplomatura en Medios Alternativos de Resolución de Conflictos (UBP)",
+      "Programa Universitario en Finanzas (UADE)",
+      "Programa en Gestión del Cliente Pyme (UBP)"
+    ],
+    linkedin: "https://www.linkedin.com/in/leonardo-mazzei-6ba06814a/",
+    image: "/leonardoJavierMazzei.jpg"
+  },
+  {
+    id: 7,
+    name: 'Concepción Bonetto',
+    position: 'ASOCIADA',
+    curriculum: [
+      "Abogada (U.N.C)",
+      "Notaria (Univ. Siglo XXI)",
+      "Diplomada en Derecho Penal Económico y Tributario (UCASAL)"
+    ],
+    linkedin: "https://www.linkedin.com/in/concepcion-bonetto-4864471ba/",
+    image: "/concepcionBonetto.jpg"
+  },
+  {
     id: 3,
     name: 'Agustín Pascualini',
     position: 'ASOCIADO',
@@ -78,33 +105,33 @@ export const teamMembers: TeamMember[] = [
     linkedin: "https://www.linkedin.com/in/constanza-zucchella-2979b08/",
     image: "/constanzaZucchella2.jpeg"
   },
-  {
-    id: 7,
-    name: 'Concepción Bonetto',
-    position: 'ASOCIADA',
-    curriculum: [
-      "Abogada (U.N.C)",
-      "Notaria (Univ. Siglo XXI)",
-      "Diplomada en Derecho Penal Económico y Tributario (UCASAL)"
-    ],
-    linkedin: "https://www.linkedin.com/in/concepcion-bonetto-4864471ba/",
-    image: "/concepcionBonetto.jpg"
-  },
-  {
-    id: 10,
-    name: 'Florencia Luz Márquez Bonino',
-    position: 'ASOCIADA',
-    curriculum: [
-      "Abogada (UBP)",
-      "Doctorando en Ciencias Jurídicas (UMSA)",
-      "Especialización en Derecho Penal Económico (UBP)",
-      "Maestría en Criminología y Ciencias Forenses (UES21)",
-      "LLM Candidate Maestría en Derecho con Orientación en Arbitraje Comercial y de Inversión, y en Contratos y Litigios (Univ. Austral)",
-      "Diplomatura en Governance, Compliance, Control & Assurance (Univ. San Andrés)",
-      "Programa de Prevención de Crímenes Financieros (IAE)",
-      "Certificación Internacional en Compliance International Federation of Compliance Associations (IFCA)"
-    ],
-    linkedin: "https://www.linkedin.com/in/florenciamarquezbonino/",
-    image: "/florenciaBonino2.jpeg"
-  }
+  // {
+  //   id: 7,
+  //   name: 'Concepción Bonetto',
+  //   position: 'ASOCIADA',
+  //   curriculum: [
+  //     "Abogada (U.N.C)",
+  //     "Notaria (Univ. Siglo XXI)",
+  //     "Diplomada en Derecho Penal Económico y Tributario (UCASAL)"
+  //   ],
+  //   linkedin: "https://www.linkedin.com/in/concepcion-bonetto-4864471ba/",
+  //   image: "/concepcionBonetto.jpg"
+  // },
+  // {
+  //   id: 10,
+  //   name: 'Florencia Luz Márquez Bonino',
+  //   position: 'ASOCIADA',
+  //   curriculum: [
+  //     "Abogada (UBP)",
+  //     "Doctorando en Ciencias Jurídicas (UMSA)",
+  //     "Especialización en Derecho Penal Económico (UBP)",
+  //     "Maestría en Criminología y Ciencias Forenses (UES21)",
+  //     "LLM Candidate Maestría en Derecho con Orientación en Arbitraje Comercial y de Inversión, y en Contratos y Litigios (Univ. Austral)",
+  //     "Diplomatura en Governance, Compliance, Control & Assurance (Univ. San Andrés)",
+  //     "Programa de Prevención de Crímenes Financieros (IAE)",
+  //     "Certificación Internacional en Compliance International Federation of Compliance Associations (IFCA)"
+  //   ],
+  //   linkedin: "https://www.linkedin.com/in/florenciamarquezbonino/",
+  //   image: "/florenciaBonino2.jpeg"
+  // }
 ]
