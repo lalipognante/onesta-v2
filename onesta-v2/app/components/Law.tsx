@@ -13,13 +13,13 @@ export default function Law() {
         <div style={{ display: 'grid', gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? 48 : 80, alignItems: 'center' }}>
 
           <div ref={leftRef} className={`reveal${leftVisible ? ' visible' : ''}`}>
-            <div className="section-label">Marco legal</div>
-            <div className="law-big-num" style={{ overflow: 'hidden', fontSize: isMobile ? '4.5rem' : '8rem' }}>27.401</div>
+            <div className="section-label">Valor agregado</div>
+            <div className="law-big-num" style={{ overflow: 'hidden', fontSize: isMobile ? '4.5rem' : '8rem' }}>ISO 37301</div>
             <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.2rem)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.2, marginBottom: 20 }}>
-              La ley que cambia las reglas del juego para las empresas argentinas.
+              La norma ISO que certifica el funcionamiento de tu sistema de compliance.
             </h2>
             <p style={{ color: '#7A95A8', fontSize: '0.92rem', lineHeight: 1.8, marginBottom: 32 }}>
-              La Ley Nacional 27.401 de Responsabilidad Penal de las Personas Jurídicas establece que las empresas pueden ser sancionadas penalmente por actos de corrupción cometidos en su nombre. Un programa de integridad efectivo es la herramienta que permite mitigar ese riesgo y, en muchos casos, quedar exenta de responsabilidad.
+              La norma ISO 37301 de Sistemas de Gestión de Compliance ofrece a las organizaciones un marco internacional robusto y estructurado para identificar, evaluar y gestionar sus obligaciones de cumplimiento de manera sistemática. Implementarla no solo fortalece la cultura de integridad interna, sino que también permite demostrar ante clientes, socios comerciales y organismos reguladores un compromiso genuino con la transparencia y la buena gobernanza.
             </p>
             <a href="#cta" style={{ display: 'inline-flex', alignItems: 'center', gap: 8, padding: '1rem 2rem', background: '#1D72B8', color: '#FFFFFF', borderRadius: 7, fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none', transition: 'all 0.2s', width: isMobile ? '100%' : 'auto', justifyContent: isMobile ? 'center' : 'flex-start' }}
               onMouseEnter={e => { e.currentTarget.style.background = '#1560A0'; e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 10px 30px rgba(29,114,184,0.45)' }}
@@ -33,7 +33,7 @@ export default function Law() {
             <div style={{ position: 'absolute', top: -60, right: -60, width: 200, height: 200, border: '1px solid rgba(29,114,184,0.15)', borderRadius: '50%', pointerEvents: 'none' }} />
             <div style={{ position: 'absolute', top: -20, right: -20, width: 120, height: 120, border: '1px solid rgba(29,114,184,0.1)', borderRadius: '50%', pointerEvents: 'none' }} />
             {[
-              { num: '+5', suffix: ' años', label: 'de vigencia de la Ley 27.401 — y cada vez más empresas son inspeccionadas por organismos de control.' },
+              { num: '+5', suffix: ' años', label: 'de vigencia de la ISO 37301 — y cada vez más empresas son candidatas a la certificación.' },
               { num: 'ISO', suffix: ' 37001', label: 'Estándar internacional de Sistema de Gestión Anticorrupción. Acompañamos tu proceso de certificación de inicio a fin.' },
               { num: '0', suffix: ' plantillas', label: 'Todos nuestros programas son diseñados desde cero, a medida del tamaño, sector y riesgos específicos de tu organización.' },
             ].map((stat, i, arr) => (
